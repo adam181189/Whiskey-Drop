@@ -1,0 +1,93 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container-callout {
+    
+    height: 100vh;
+    background: url("../images/whiskey.png") no-repeat center scroll;
+    
+    background-size: cover;
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    position: relative;
+    
+}
+
+.opaque-overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.container-alert {
+
+}
+
+.container-quotes{
+
+}
+
+.container-features{
+
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color:transparent;
+}
+
+.jumbotron-header{
+    color:white;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.lead {
+    color: rgb(183, 186, 201);
+}
+
+.jumbotron small {
+    color: grey;
+    font-weight: bold;
+}
+
+.block-dividers {
+
+margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 10px solid rgba(222, 134, 58, 0.9);
+    width: 75px;
+    height: 5px;
+
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color:white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:Active:focus {
+        color:#f05f40;
+        background-color:white;
+        border-color:white;
+}
