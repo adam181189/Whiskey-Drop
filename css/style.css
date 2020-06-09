@@ -41,14 +41,45 @@ body{
     background-color: rgba(0,0,0,0.5);
 }
 
-
+.content-containers{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left:0px;
+    padding-right:0px;
+    
+}
 
 .container-quotes{
-
+    margin-bottom:0px;
+    border-bottom:0px;
+    padding-bottom:0px;
+    
 }
 
 .container-features{
+    
+}
 
+.container-wrapper {
+       
+}
+
+.container-wrapper--red {
+    background-color:#f05f40;
+    color:white; 
+   
+}
+/*page headers*/
+
+.page-header {
+    margin-bottom:0;
+    border-bottom:0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.page-header h2 {
+    margin-top:0;
 }
 
 /*jumbotron*/
@@ -77,10 +108,18 @@ body{
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 10px solid rgba(222, 134, 58, 0.9);
+    border-top: 10px solid rgba(1,1,1,1);
     width: 75px;
     height: 5px;
+    
+}
 
+.block-dividers--orange {
+    border-top: 10px solid rgba(222, 134, 58, 0.9);
+}
+
+.block-dividers--short {
+    width: 35px;
 }
 
 .btn--cta {
